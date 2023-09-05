@@ -1,4 +1,4 @@
-﻿// Declaration
+﻿// Declaration and initialization
 int number = 5;
 Console.WriteLine(number);
 
