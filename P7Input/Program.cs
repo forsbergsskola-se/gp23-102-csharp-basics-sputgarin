@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿string name = "default name";
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("What's your name? ");
+name = Console.ReadLine();
+Console.WriteLine($"Hello,{name}");
