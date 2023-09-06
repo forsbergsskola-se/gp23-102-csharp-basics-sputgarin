@@ -1,12 +1,22 @@
-﻿using System.Globalization;
+﻿
+
+using System.Globalization;
 Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
-
+/*
 // Program 9
+int seconds;
+int minutes;
+int secondsLeft;
 string input;
+
 Console.WriteLine("Please enter seconds: ");
 input = Console.ReadLine();
-
+seconds = Convert.ToInt32(input);
+minutes = seconds / 60;
+secondsLeft = seconds % 60;
+Console.WriteLine("Minutes: {0} Seconds: {1}", minutes, secondsLeft);
+*/
 
 /*
 
@@ -114,26 +124,28 @@ int seconds = minutes * 60;
 Console.WriteLine($@"There are {seconds} in {minutes} Minute/s");
 */
 
-/*
-int secondsTotal;    
+
+// Program 10
+
+
+int secondsTotal = 0;
+
 Console.WriteLine("Give me a number of seconds");
 secondsTotal = Convert.ToInt32(Console.ReadLine());
 
-double days = (double)secondsTotal / 86400;
+int days = (int)secondsTotal / 86400;
 int secondsLeft = secondsTotal % 86400;
-double hours = (double)secondsLeft / 3600;
+int hours = (int)secondsLeft / 3600;
 secondsLeft = secondsLeft % 3600;
-double minutes = (double)secondsTotal / 60;
-secondsLeft = secondsLeft % 3600;
+int minutes = (int)secondsLeft / 60;
+secondsLeft = secondsLeft % 60;
 
-int daysInt = Convert.ToInt32(days);
-int hoursInt = Convert.ToInt32(hours);
-int minutesInt = Convert.ToInt32(minutes);
-int secondsInt = Convert.ToInt32(secondsLeft);
+double result = (double)secondsTotal  / 86400;
+
 Console.WriteLine($@"
-Seconds: {secondsInt}
-Minutes: {minutesInt} 
-Hours: {hoursInt} 
-Days: {daysInt} 
-{daysInt}.{hours}.{minutes}.{secondsLeft}");
-*/
+Seconds: {secondsLeft}
+Minutes: {minutes} 
+Hours: {hours} 
+Days: {days} 
+{days}.{hours}.{minutes}.{secondsLeft}");
+Console.WriteLine(result);
