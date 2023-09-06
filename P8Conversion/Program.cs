@@ -13,4 +13,4 @@ doubleNumber = double.Parse(input, CultureInfo.InvariantCulture);
 Console.WriteLine(doubleNumber);
 intNumber = Convert.ToInt32(doubleNumber);
 Console.WriteLine(intNumber);
-doubleNumber = Convert.ToDouble(intNumber);
+intNumber = Convert.ToInt32(input);
