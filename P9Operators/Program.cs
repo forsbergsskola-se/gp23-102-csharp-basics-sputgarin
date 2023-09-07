@@ -142,6 +142,8 @@ secondsLeft = secondsLeft % 60;
 
 double result = (double)secondsTotal  / 86400;
 
+
+
 Console.WriteLine($@"
 Seconds: {secondsLeft}
 Minutes: {minutes} 
