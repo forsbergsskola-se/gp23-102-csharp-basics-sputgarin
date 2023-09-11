@@ -4,7 +4,7 @@ using System.Globalization;
 Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
 /*
-// Program 9
+// P09_10SecondsToMinutes
 int seconds;
 int minutes;
 int secondsLeft;
@@ -20,7 +20,7 @@ Console.WriteLine("Minutes: {0} Seconds: {1}", minutes, secondsLeft);
 
 /*
 
-// Program 8
+// P09_09Hypotenuse
 string input;
 double firstSide = 0;
 double secondSide = 0;
@@ -44,7 +44,7 @@ Console.WriteLine($@"The result is: {results}");
 */
 
 /*
-// Program 7  BMI
+// P09_08BMI
 double weight = 0;
 double height = 0;
 string input;
@@ -60,7 +60,7 @@ Console.WriteLine("Your BMI is: {0}", BMI);
 */
 
 /*
-// Program 6
+// P09_07Product
 Console.WriteLine("Please type a number: ");
 int i = Convert.ToInt32(Console.ReadLine());
 int y = 5;
@@ -69,7 +69,7 @@ Console.WriteLine(i * y);
 */
 
 /*
-// Program 5
+// P09_06Negation
 Console.WriteLine("Please type a number: ");
 int x = Convert.ToInt32(Console.ReadLine());
 int y = -x;
@@ -78,7 +78,7 @@ Console.WriteLine("The negation is: {0}",y);
 */
 
 /*
-// Program 4
+// P09_05CircleArea
 string input;
 double radius;
 double pi = 3.14159;
@@ -91,7 +91,7 @@ Console.WriteLine("The area is: {0}", result);
 
 
 /*
-// Program 3
+// P09_04Remainder
 int i = 10;
 int j = 3;
 int result = i % j;
@@ -99,7 +99,7 @@ Console.WriteLine("The remainder is: {0}", result);
 */
 
 /*
-// PROGRAM 2
+// P09_03Division
 int i = 5;
 int j = 4;
 
