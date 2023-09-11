@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_02MinutesToSeconds", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09_03Division", "P09_03Division\P09_03Division.csproj", "{9C2C022C-6CA9-4AC8-999F-F8A0713C0229}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_3Characters", "P11_3Characters\P11_3Characters.csproj", "{B899ED45-EC16-41C4-8E1C-A7EF4BE3C169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{9C2C022C-6CA9-4AC8-999F-F8A0713C0229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C2C022C-6CA9-4AC8-999F-F8A0713C0229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C2C022C-6CA9-4AC8-999F-F8A0713C0229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B899ED45-EC16-41C4-8E1C-A7EF4BE3C169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B899ED45-EC16-41C4-8E1C-A7EF4BE3C169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B899ED45-EC16-41C4-8E1C-A7EF4BE3C169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B899ED45-EC16-41C4-8E1C-A7EF4BE3C169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
