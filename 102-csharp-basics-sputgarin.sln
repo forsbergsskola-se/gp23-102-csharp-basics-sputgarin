@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_3Characters", "P11_3Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_4Calculator", "P11_4Calculator\P11_4Calculator.csproj", "{406F12AE-A96E-4067-9090-35245AC3EC38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_5EvenOrOdd", "P11_5EvenOrOdd\P11_5EvenOrOdd.csproj", "{932452FD-5EEE-4C0C-9BE8-BB55A002ACC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{406F12AE-A96E-4067-9090-35245AC3EC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406F12AE-A96E-4067-9090-35245AC3EC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406F12AE-A96E-4067-9090-35245AC3EC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932452FD-5EEE-4C0C-9BE8-BB55A002ACC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932452FD-5EEE-4C0C-9BE8-BB55A002ACC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932452FD-5EEE-4C0C-9BE8-BB55A002ACC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932452FD-5EEE-4C0C-9BE8-BB55A002ACC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
