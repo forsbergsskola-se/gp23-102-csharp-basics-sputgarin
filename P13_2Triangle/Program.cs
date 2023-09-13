@@ -1,13 +1,37 @@
 ﻿char symbol = '#';
 int counter = 0;
-int userNumber = int.Parse(Console.ReadLine());
+int counterTwo = 0;
 
-Loop1:
-if (counter < userNumber)
-{   
-    Console.Write(symbol);
-    goto Loop1;
+Console.WriteLine("How high do you want your pyramid to be?");
+int height = int.Parse(Console.ReadLine());
+
+OuterLoop:
+if (counter <= height)
+{
+    LoopInnerLoop:
+    if (counterTwo <= height)
+    {
+        counterTwo++;
+        Console.Write(symbol);
+        
+        goto LoopInnerLoop;
+        
+    }
     
-    if (counter < )
+        if (counterTwo <= height)
+    {
+        counterTwo++;
+        Console.Write(symbol);
+        
+        goto LoopInnerLoop;
+        
+    }
+    
+    Console.WriteLine();
+    
+
+    counter++;
+    goto OuterLoop;
+    
     
 }
