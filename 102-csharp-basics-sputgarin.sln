@@ -60,6 +60,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13GoTo", "P13GoTo\P13GoTo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nim", "Nim\Nim.csproj", "{609281DF-B00E-451E-977C-7C05332DFD65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_1Dollars", "P13_1Dollars\P13_1Dollars.csproj", "{B7EFE465-7D2E-45B9-9165-769BD9973529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_2Triangle", "P13_2Triangle\P13_2Triangle.csproj", "{0C07981A-4874-4033-9A0C-442E34FA4213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -186,5 +190,13 @@ Global
 		{609281DF-B00E-451E-977C-7C05332DFD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{609281DF-B00E-451E-977C-7C05332DFD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{609281DF-B00E-451E-977C-7C05332DFD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EFE465-7D2E-45B9-9165-769BD9973529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EFE465-7D2E-45B9-9165-769BD9973529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EFE465-7D2E-45B9-9165-769BD9973529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EFE465-7D2E-45B9-9165-769BD9973529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C07981A-4874-4033-9A0C-442E34FA4213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C07981A-4874-4033-9A0C-442E34FA4213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C07981A-4874-4033-9A0C-442E34FA4213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C07981A-4874-4033-9A0C-442E34FA4213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
