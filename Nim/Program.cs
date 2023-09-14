@@ -111,7 +111,7 @@ if (playerLost == true)
 }
 else
 {
-    Console.WriteLine("The ai drew the last match. You win.");
+    Console.WriteLine("The AI drew the last match. You win.");
 }
 
 /*
