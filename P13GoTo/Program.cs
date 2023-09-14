@@ -2,7 +2,7 @@
 Random random = new Random();
 
 // Pick a random number between 0-100
-int goalNumber = random.Next(100);
+int goalNumber = random.Next(1, 101);
 
 // Porompt the user for input.
 Console.WriteLine("I have picked a number (1-100). It's your turn to guess it!");

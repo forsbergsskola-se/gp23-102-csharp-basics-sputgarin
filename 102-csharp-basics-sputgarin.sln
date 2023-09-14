@@ -64,6 +64,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_1Dollars", "P13_1Dollar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_2Triangle", "P13_2Triangle\P13_2Triangle.csproj", "{0C07981A-4874-4033-9A0C-442E34FA4213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_3Pattern", "P13_3Pattern\P13_3Pattern.csproj", "{37F83BB8-CB25-4FB9-BCF2-943F0CD8001D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_1Random_Coordinates", "P12_1Random_Coordinates\P12_1Random_Coordinates.csproj", "{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -198,5 +202,13 @@ Global
 		{0C07981A-4874-4033-9A0C-442E34FA4213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C07981A-4874-4033-9A0C-442E34FA4213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C07981A-4874-4033-9A0C-442E34FA4213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F83BB8-CB25-4FB9-BCF2-943F0CD8001D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F83BB8-CB25-4FB9-BCF2-943F0CD8001D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F83BB8-CB25-4FB9-BCF2-943F0CD8001D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F83BB8-CB25-4FB9-BCF2-943F0CD8001D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
