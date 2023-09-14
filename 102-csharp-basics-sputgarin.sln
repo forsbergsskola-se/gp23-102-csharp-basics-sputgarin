@@ -68,6 +68,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_3Pattern", "P13_3Patter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_1Random_Coordinates", "P12_1Random_Coordinates\P12_1Random_Coordinates.csproj", "{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_2Random_Password", "P12_2Random_Password\P12_2Random_Password.csproj", "{8E17D75E-EF3F-44E0-AAD0-3FA48580CD2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_3Random_Item", "P12_3Random_Item\P12_3Random_Item.csproj", "{2AEA1F23-D41A-47D2-93D0-7E372D254890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -210,5 +214,13 @@ Global
 		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B087CA-FDF6-4167-8FB1-28B082DA4F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E17D75E-EF3F-44E0-AAD0-3FA48580CD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E17D75E-EF3F-44E0-AAD0-3FA48580CD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E17D75E-EF3F-44E0-AAD0-3FA48580CD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E17D75E-EF3F-44E0-AAD0-3FA48580CD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEA1F23-D41A-47D2-93D0-7E372D254890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEA1F23-D41A-47D2-93D0-7E372D254890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEA1F23-D41A-47D2-93D0-7E372D254890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEA1F23-D41A-47D2-93D0-7E372D254890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
